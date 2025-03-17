@@ -892,57 +892,15 @@ h3.my-profession
 
 /* cbc */
 
-/* CBC Training copied from portfolio (proof pf work) */
-.cbc-training .container
-{
-    padding-bottom: 40px;
-}
-.cbc-training .cbc-training-heading
-{
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-
-.cbc-training .cbc-training-heading h2
-{
-    color: var(--text-black-900);
-    font-weight: 500;
-}
-.cbc-training .cbc-training-item
-{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 30px;
-}
-.cbc-training .cbc-training-item-inner
-{
-    border: 6px solid var(--bg-black-100);
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-
-}
-
-.cbc-training .cbc-training-item-inner .cbc-training-img img
-{
-    width: 100%;
-    display: block;
-
-
-}
-
-
-
-/*cbc financial*/
-.cbc-financial
+/*ConsultancyManufacturingandSupplyChain financial*/
+.ConsultancyManufacturingandSupplyChain
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 
 }
-.cbc-financial .cbc-financial-info
+.ConsultancyManufacturingandSupplyChain .ConsultancyManufacturingandSupplyChain-info
 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -970,19 +928,19 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.cbc-financial-info p {
+.ConsultancyManufacturingandSupplyChain-info p {
     margin-bottom: 70px;
     font-size: 20px;
     color: var(--text-black-700);
 }
-.cbc-financial .cbc-financial-img
+.ConsultancyManufacturingandSupplyChain .ConsultancyManufacturingandSupplyChain-img
 {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
-.cbc-financial-img::after
+.ConsultancyManufacturingandSupplyChain-img::after
 {
     content: '';
     position: absolute;
@@ -995,7 +953,7 @@ h3.my-profession
     right: 30px;
     bottom: -20px;
 }
-.cbc-financial-img::before
+.ConsultancyManufacturingandSupplyChain-img::before
 {
     content: '';
     position: absolute;
@@ -1008,7 +966,7 @@ h3.my-profession
     left: 30px;
     top: -40px;
 }
-.cbc-financial .cbc-financial-img img 
+.ConsultancyManufacturingandSupplyChain .ConsultancyManufacturingandSupplyChain-img img 
 {
     margin: auto;
     border-radius: 5px;
@@ -1020,15 +978,15 @@ h3.my-profession
 
 
 
-/*cbc community*/
-.cbc-community
+/*ConsultancyFinancialSectorSaccosandMicrofinance community*/
+.ConsultancyFinancialSectorSaccosandMicrofinance
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 
 }
-.cbc-community .cbc-community-info
+.ConsultancyFinancialSectorSaccosandMicrofinance .ConsultancyFinancialSectorSaccosandMicrofinance-info
 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -1056,19 +1014,19 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.cbc-community-info p {
+.ConsultancyFinancialSectorSaccosandMicrofinance-info p {
     margin-bottom: 70px;
     font-size: 20px;
     color: var(--text-black-700);
 }
-.cbc-community .cbc-community-img
+.ConsultancyFinancialSectorSaccosandMicrofinance .ConsultancyFinancialSectorSaccosandMicrofinance-img
 {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
-.cbc-community-img::after
+.ConsultancyFinancialSectorSaccosandMicrofinance-img::after
 {
     content: '';
     position: absolute;
@@ -1081,7 +1039,7 @@ h3.my-profession
     right: 30px;
     bottom: -20px;
 }
-.cbc-community-img::before
+.ConsultancyFinancialSectorSaccosandMicrofinance-img::before
 {
     content: '';
     position: absolute;
@@ -1094,7 +1052,7 @@ h3.my-profession
     left: 30px;
     top: -40px;
 }
-.cbc-community .cbc-community-img img 
+.ConsultancyFinancialSectorSaccosandMicrofinance .ConsultancyFinancialSectorSaccosandMicrofinance-img img 
 {
     margin: auto;
     border-radius: 5px;
@@ -1104,19 +1062,19 @@ h3.my-profession
 
 }
 
-/*CBC Testimonials*/
-.cbc-testimonial .container
+/*Consultancy Testimonials*/
+.consultancy-testimonial .container
 {
     padding-bottom: 40px;
 }
-.cbc-testimonial .cbc-testimonial-item
+.consultancy-testimonial .consultancy-testimonial-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.cbc-testimonial .cbc-testimonial-item .cbc-testimonial-item-inner
+.consultancy-testimonial .consultancy-testimonial-item .consultancy-testimonial-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
@@ -1125,11 +1083,11 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.cbc-testimonial .cbc-testimonial-item .cbc-testimonial-item-inner:hover
+.consultancy-testimonial .consultancy-testimonial-item .consultancy-testimonial-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.cbc-testimonial .cbc-testimonial-item .cbc-testimonial-item-inner .icon
+.consultancy-testimonial .consultancy-testimonial-item .consultancy-testimonial-item-inner .icon
 {
     height: 60px;
     width: 60px;
@@ -1140,23 +1098,23 @@ h3.my-profession
     transition: all 0.3s ease;
 
 }
-.cbc-testimonial .cbc-testimonial-item .cbc-testimonial-item-inner .icon .fa
+.consultancy-testimonial .consultancy-testimonial-item .consultancy-testimonial-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.cbc-testimonial .cbc-testimonial-item .cbc-testimonial-item-inner:hover .icon
+.consultancy-testimonial .consultancy-testimonial-item .consultancy-testimonial-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.cbc-testimonial .cbc-testimonial-item .cbc-testimonial-item-inner:hover .icon .fa
+.consultancy-testimonial .consultancy-testimonial-item .consultancy-testimonial-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.cbc-testimonial .cbc-testimonial-item .cbc-testimonial-item-inner h4
+.consultancy-testimonial .consultancy-testimonial-item .consultancy-testimonial-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -1165,7 +1123,7 @@ h3.my-profession
     text-transform: capitalize;
 
 }
-.cbc-testimonial .cbc-testimonial-item .cbc-testimonial-item-inner p
+.consultancy-testimonial .consultancy-testimonial-item .consultancy-testimonial-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
@@ -1178,58 +1136,15 @@ h3.my-profession
 
 /* Grads */
 
-/* Grads Training copied from portfolio (proof pf work) */
-
-.grads-training .container
-{
-    padding-bottom: 40px;
-}
-.grads-training .grads-training-heading
-{
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-
-.grads-training .grads-training-heading h2
-{
-    color: var(--text-black-900);
-    font-weight: 500;
-}
-.grads-training .grads-training-item
-{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 30px;
-}
-.grads-training .grads-training-item-inner
-{
-    border: 6px solid var(--bg-black-100);
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-
-}
-
-.grads-training .grads-training-item-inner .grads-training-img img
-{
-    width: 100%;
-    display: block;
-
-
-}
-
-
-
 /*Grads Financial*/
-.grads-financial
+.AwarenessManufacturingandSupplyChain
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 
 }
-.grads-financial .grads-financial-info
+.AwarenessManufacturingandSupplyChain .AwarenessManufacturingandSupplyChain-info
 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -1257,19 +1172,19 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.grads-financial-info p {
+.AwarenessManufacturingandSupplyChain-info p {
     margin-bottom: 70px;
     font-size: 20px;
     color: var(--text-black-700);
 }
-.grads-financial .grads-financial-img
+.AwarenessManufacturingandSupplyChain .AwarenessManufacturingandSupplyChain-img
 {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
-.grads-financial-img::after
+.AwarenessManufacturingandSupplyChain-img::after
 {
     content: '';
     position: absolute;
@@ -1282,7 +1197,7 @@ h3.my-profession
     right: 30px;
     bottom: -20px;
 }
-.grads-financial-img::before
+.AwarenessManufacturingandSupplyChain-img::before
 {
     content: '';
     position: absolute;
@@ -1295,7 +1210,7 @@ h3.my-profession
     left: 30px;
     top: -40px;
 }
-.grads-financial .grads-financial-img img 
+.AwarenessManufacturingandSupplyChain .AwarenessManufacturingandSupplyChain-img img 
 {
     margin: auto;
     border-radius: 5px;
@@ -1307,14 +1222,14 @@ h3.my-profession
 
 
 /*Grads Community*/
-.grads-community
+.AwarenessFinancialSectorSaccosandMicrofinance
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 
 }
-.grads-community .grads-community-info
+.AwarenessFinancialSectorSaccosandMicrofinance .AwarenessFinancialSectorSaccosandMicrofinance-info
 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -1342,19 +1257,19 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.grads-community-info p {
+.AwarenessFinancialSectorSaccosandMicrofinance-info p {
     margin-bottom: 70px;
     font-size: 20px;
     color: var(--text-black-700);
 }
-.grads-community .grads-community-img
+.AwarenessFinancialSectorSaccosandMicrofinance .AwarenessFinancialSectorSaccosandMicrofinance-img
 {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
-.grads-community-img::after
+.AwarenessFinancialSectorSaccosandMicrofinance-img::after
 {
     content: '';
     position: absolute;
@@ -1367,7 +1282,7 @@ h3.my-profession
     right: 30px;
     bottom: -20px;
 }
-.grads-community-img::before
+.AwarenessFinancialSectorSaccosandMicrofinance-img::before
 {
     content: '';
     position: absolute;
@@ -1380,7 +1295,7 @@ h3.my-profession
     left: 30px;
     top: -40px;
 }
-.grads-community .grads-community-img img 
+.AwarenessFinancialSectorSaccosandMicrofinance .AwarenessFinancialSectorSaccosandMicrofinance-img img 
 {
     margin: auto;
     border-radius: 5px;
@@ -1391,19 +1306,19 @@ h3.my-profession
 }
 
 
-/*Grads Testimonials*/
-.grads-testimonial .container
+/*Awareness Testimonials*/
+.awareness-testimonial .container
 {
     padding-bottom: 40px;
 }
-.grads-testimonial .grads-testimonial-item
+.awareness-testimonial .awareness-testimonial-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.grads-testimonial .grads-testimonial-item .grads-testimonial-item-inner
+.awareness-testimonial .awareness-testimonial-item .awareness-testimonial-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
@@ -1412,11 +1327,11 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.grads-testimonial .grads-testimonial-item .grads-testimonial-item-inner:hover
+.awareness-testimonial .awareness-testimonial-item .awareness-testimonial-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.grads-testimonial .grads-testimonial-item .grads-testimonial-item-inner .icon
+.awareness-testimonial .awareness-testimonial-item .awareness-testimonial-item-inner .icon
 {
     height: 60px;
     width: 60px;
@@ -1427,23 +1342,23 @@ h3.my-profession
     transition: all 0.3s ease;
 
 }
-.grads-testimonial .grads-testimonial-item .grads-testimonial-item-inner .icon .fa
+.awareness-testimonial .awareness-testimonial-item .awareness-testimonial-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.grads-testimonial .grads-testimonial-item .grads-testimonial-item-inner:hover .icon
+.awareness-testimonial .awareness-testimonial-item .awareness-testimonial-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.grads-testimonial .grads-testimonial-item .grads-testimonial-item-inner:hover .icon .fa
+.awareness-testimonial .awareness-testimonial-item .awareness-testimonial-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.grads-testimonial .grads-testimonial-item .grads-testimonial-item-inner h4
+.awareness-testimonial .awareness-testimonial-item .awareness-testimonial-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -1452,7 +1367,7 @@ h3.my-profession
     text-transform: capitalize;
 
 }
-.grads-testimonial .grads-testimonial-item .grads-testimonial-item-inner p
+.awareness-testimonial .awareness-testimonial-item .awareness-testimonial-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
@@ -1462,100 +1377,16 @@ h3.my-profession
 
 
 
-/* Corporate */
-
-/* Corporate Solutions */
-
-/*portfolio (proof pf work)*/
-.corporate-solutions .container
-{
-    padding-bottom: 40px;
-}
-.corporate-solutions .corporate-solutions-heading
-{
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-
-.corporate-solutions .corporate-solutions-heading h2
-{
-    color: var(--text-black-900);
-    font-weight: 500;
-}
-.corporate-solutions .corporate-solutions-item
-{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 30px;
-}
-.corporate-solutions .corporate-solutions-item-inner
-{
-    border: 6px solid var(--bg-black-100);
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-
-}
-
-.corporate-solutions .corporate-solutions-item-inner .corporate-solutions-img img
-{
-    width: 100%;
-    display: block;
-
-
-}
-
-/* Corporate  Training copied from portfolio (proof pf work) */
-.corporate-training .container
-{
-    padding-bottom: 40px;
-}
-.corporate-training .corporate-training-heading
-{
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-
-.corporate-training .corporate-training-heading h2
-{
-    color: var(--text-black-900);
-    font-weight: 500;
-}
-.corporate-training .corporate-training-item
-{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 30px;
-}
-.corporate-training .corporate-training-item-inner
-{
-    border: 6px solid var(--bg-black-100);
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-
-}
-
-.corporate-training .corporate-training-item-inner .corporate-training-img img
-{
-    width: 100%;
-    display: block;
-
-
-}
-
-
-/*corporate hire*/
-.corporate-hire
+/* Compliance */
+/*ComplianceManufacturingandSupplyChain*/
+.ComplianceManufacturingandSupplyChain
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 
 }
-.corporate-hire .corporate-hire-info
+.ComplianceManufacturingandSupplyChain .ComplianceManufacturingandSupplyChain-info
 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -1583,19 +1414,19 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.corporate-hire-info p {
+.ComplianceManufacturingandSupplyChain-info p {
     margin-bottom: 70px;
     font-size: 20px;
     color: var(--text-black-700);
 }
-.corporate-hire .corporate-hire-img
+.ComplianceManufacturingandSupplyChain .ComplianceManufacturingandSupplyChain-img
 {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
-.corporate-hire-img::after
+.ComplianceManufacturingandSupplyChain-img::after
 {
     content: '';
     position: absolute;
@@ -1608,7 +1439,7 @@ h3.my-profession
     right: 30px;
     bottom: -20px;
 }
-.corporate-hire-img::before
+.ComplianceManufacturingandSupplyChain-img::before
 {
     content: '';
     position: absolute;
@@ -1621,7 +1452,7 @@ h3.my-profession
     left: 30px;
     top: -40px;
 }
-.corporate-hire .corporate-hire-img img 
+.ComplianceManufacturingandSupplyChain .ComplianceManufacturingandSupplyChain-img img 
 {
     margin: auto;
     border-radius: 5px;
@@ -1632,14 +1463,14 @@ h3.my-profession
 }
 
 /*corporate community*/
-.corporate-community
+.ComplianceFinancialSectorSaccosandMicrofinance
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 
 }
-.corporate-community .corporate-community-info
+.ComplianceFinancialSectorSaccosandMicrofinance .ComplianceFinancialSectorSaccosandMicrofinance-info
 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -1667,19 +1498,19 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.corporate-community-info p {
+.ComplianceFinancialSectorSaccosandMicrofinance-info p {
     margin-bottom: 70px;
     font-size: 20px;
     color: var(--text-black-700);
 }
-.corporate-community .corporate-community-img
+.ComplianceFinancialSectorSaccosandMicrofinance .ComplianceFinancialSectorSaccosandMicrofinance-img
 {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
-.corporate-community-img::after
+.ComplianceFinancialSectorSaccosandMicrofinance-img::after
 {
     content: '';
     position: absolute;
@@ -1692,7 +1523,7 @@ h3.my-profession
     right: 30px;
     bottom: -20px;
 }
-.corporate-community-img::before
+.ComplianceFinancialSectorSaccosandMicrofinance-img::before
 {
     content: '';
     position: absolute;
@@ -1705,7 +1536,7 @@ h3.my-profession
     left: 30px;
     top: -40px;
 }
-.corporate-community .corporate-community-img img 
+.ComplianceFinancialSectorSaccosandMicrofinance .ComplianceFinancialSectorSaccosandMicrofinance-img img 
 {
     margin: auto;
     border-radius: 5px;
@@ -1715,19 +1546,19 @@ h3.my-profession
 
 }
 
-/*Corporate Testimonial*/
-.corporate-testimonial .container
+/*Compliance Testimonial*/
+.compliance-testimonial .container
 {
     padding-bottom: 40px;
 }
-.corporate-testimonial .corporate-testimonial-item
+.compliance-testimonial .compliance-testimonial-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.corporate-testimonial .corporate-testimonial-item .corporate-testimonial-item-inner
+.compliance-testimonial .compliance-testimonial-item .compliance-testimonial-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
@@ -1736,11 +1567,11 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.corporate-testimonial .corporate-testimonial-item .corporate-testimonial-item-inner:hover
+.compliance-testimonial .compliance-testimonial-item .compliance-testimonial-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.corporate-testimonial .corporate-testimonial-item .corporate-testimonial-item-inner .icon
+.compliance-testimonial .compliance-testimonial-item .compliance-testimonial-item-inner .icon
 {
     height: 60px;
     width: 60px;
@@ -1751,23 +1582,23 @@ h3.my-profession
     transition: all 0.3s ease;
 
 }
-.corporate-testimonial .corporate-testimonial-item .corporate-testimonial-item-inner .icon .fa
+.compliance-testimonial .compliance-testimonial-item .compliance-testimonial-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.corporate-testimonial .corporate-testimonial-item .corporate-testimonial-item-inner:hover .icon
+.compliance-testimonial .compliance-testimonial-item .compliance-testimonial-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.corporate-testimonial .corporate-testimonial-item .corporate-testimonial-item-inner:hover .icon .fa
+.compliance-testimonial .compliance-testimonial-item .compliance-testimonial-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.corporate-testimonial .corporate-testimonial-item .corporate-testimonial-item-inner h4
+.compliance-testimonial .compliance-testimonial-item .compliance-testimonial-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -1776,7 +1607,7 @@ h3.my-profession
     text-transform: capitalize;
 
 }
-.corporate-testimonial .corporate-testimonial-item .corporate-testimonial-item-inner p
+.compliance-testimonial .compliance-testimonial-item .compliance-testimonial-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
@@ -1786,19 +1617,20 @@ h3.my-profession
 
 
 
-/*service*/
-.service .container
+
+/*ProductsManufacturingandSupplyChain*/
+.ProductsManufacturingandSupplyChain .container
 {
     padding-bottom: 40px;
 }
-.service .service-item
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.service .service-item .service-item-inner
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
@@ -1807,11 +1639,11 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner:hover
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.service .service-item .service-item-inner .icon
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner .icon
 {
     height: 60px;
     width: 60px;
@@ -1822,23 +1654,23 @@ h3.my-profession
     transition: all 0.3s ease;
 
 }
-.service .service-item .service-item-inner .icon .fa
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner:hover .icon
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.service .service-item .service-item-inner:hover .icon .fa
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.service .service-item .service-item-inner h4
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -1847,32 +1679,26 @@ h3.my-profession
     text-transform: capitalize;
 
 }
-.service .service-item .service-item-inner p
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
 
 }
-
-
-
-
-
-
-/*products*/
-.product .container
+*/
+.ProductsManufacturingandSupplyChain .container
 {
     padding-bottom: 40px;
 }
-.product .product-item
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.product .product-item .product-item-inner
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
@@ -1881,11 +1707,11 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.product .product-item .product-item-inner:hover
+ProductsManufacturingandSupplyChaint .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.product .product-item .product-item-inner .icon
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner .icon
 {
     height: 60px;
     width: 60px;
@@ -1896,23 +1722,23 @@ h3.my-profession
     transition: all 0.3s ease;
 
 }
-.product .product-item .product-item-inner .icon .fa
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.product .product-item .product-item-inner:hover .icon
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.product .product-item .product-item-inner:hover .icon .fa
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.product .product-item .product-item-inner h4
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -1921,7 +1747,7 @@ h3.my-profession
     text-transform: capitalize;
 
 }
-.product .product-item .product-item-inner p
+.ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item .ProductsManufacturingandSupplyChain-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
@@ -1930,119 +1756,33 @@ h3.my-profession
 }
 
 
-/* consultancy */
-.consultancy
-{
-    min-height: 100vh;
-    display: flex;
-    color: var(--text-black-900);
 
-}
-.consultancy .consultancy-info
-{
-    flex: 0 0 60%;
-    max-width: 60%;
-}
-h3.hello
-{
-    font-size: 28px;
-    margin: 15px 0;
-
-}
-h3.hello span
-{
-   font-family: 'Clicker Script', cursive;
-   font-size: 30px;
-   font-weight: 700;
-   color: var(--skin-color);
-}
-h3.my-profession
-{
-    font-size: 30px;
-    margin: 15px 0;
-
-}
-.typing
-{
-    color: var(--skin-color);
-}
-.consultancy-info p {
-    margin-bottom: 70px;
-    font-size: 20px;
-    color: var(--text-black-700);
-}
-.consultancy .consultancy-img
-{
-    flex: 0 0 40%;
-    max-width: 40%;
-    text-align: center;
-    position: relative;
-}
-.consultancy-img::after
-{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    /* right: 20px;
-    bottom: -40px; */
-    right: 30px;
-    bottom: -20px;
-}
-.consultancy-img::before
-{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-    /* left: -20px;
-    top: -40px; */
-    left: 30px;
-    top: -40px;
-}
-.consultancy .consultancy-img img 
-{
-    margin: auto;
-    border-radius: 5px;
-    height: 300px;
-    width: 300px;
-    
-
-}
-
-
-
-/*(portfolio) proof pf work*/
-
-.proof-of-work .container
+/*ProductsFinancialSectorSaccosandMicrofinance*/
+.ProductsFinancialSectorSaccosandMicrofinance .container
 {
     padding-bottom: 40px;
 }
-.proof-of-work .proof-of-work-item
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.proof-of-work .proof-of-work-item .proof-of-work-item-inner
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
     padding: 30px 15px;
-    text-align: left;
+    text-align: center;
     transition: all 0.3s ease;
 }
-.proof-of-work .proof-of-work-item .proof-of-work-item-inner:hover
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.proof-of-work .proof-of-work-item .proof-of-work-item-inner .icon
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner .icon
 {
     height: 60px;
     width: 60px;
@@ -2053,23 +1793,23 @@ h3.my-profession
     transition: all 0.3s ease;
 
 }
-.proof-of-work .proof-of-work-item .proof-of-work-item-inner .icon .fa
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.proof-of-work .proof-of-work-item .proof-of-work-item-inner:hover .icon
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.proof-of-work .proof-of-work-item .proof-of-work-item-inner:hover .icon .fa
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.proof-of-work .proof-of-work-item .proof-of-work-item-inner h4
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -2078,7 +1818,7 @@ h3.my-profession
     text-transform: capitalize;
 
 }
-.proof-of-work .proof-of-work-item .proof-of-work-item-inner p
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
@@ -2086,21 +1826,18 @@ h3.my-profession
 
 }
 
-
-
-/*Testimonials*/
-.testimonial .container
+.ProductsFinancialSectorSaccosandMicrofinance .container
 {
     padding-bottom: 40px;
 }
-.testimonial .testimonial-item
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.testimonial .testimonial-item .testimonial-item-inner
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
@@ -2109,11 +1846,11 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.testimonial .testimonial-item .testimonial-item-inner:hover
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.testimonial .testimonial-item .testimonial-item-inner .icon
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner .icon
 {
     height: 60px;
     width: 60px;
@@ -2124,23 +1861,23 @@ h3.my-profession
     transition: all 0.3s ease;
 
 }
-.testimonial .testimonial-item .testimonial-item-inner .icon .fa
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.testimonial .testimonial-item .testimonial-item-inner:hover .icon
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.testimonial .testimonial-item .testimonial-item-inner:hover .icon .fa
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.testimonial .testimonial-item .testimonial-item-inner h4
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -2149,7 +1886,7 @@ h3.my-profession
     text-transform: capitalize;
 
 }
-.testimonial .testimonial-item .testimonial-item-inner p
+.ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item .ProductsFinancialSectorSaccosandMicrofinance-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
@@ -2158,19 +1895,20 @@ h3.my-profession
 }
 
 
-/*Ongoing Work*/
-.ongoing .container
+
+/*Products-testimonial*/
+.Products-testimonial .container
 {
     padding-bottom: 40px;
 }
-.ongoing .ongoing-item
+.Products-testimonial .Products-testimonial-item
 {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.ongoing .ongoing-item .ongoing-item-inner
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner
 {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
@@ -2179,11 +1917,11 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.service .ongoing-item .ongoing-item-inner:hover
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner:hover
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.ongoing .ongoing-item .ongoing-item-inner .icon
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner .icon
 {
     height: 60px;
     width: 60px;
@@ -2194,23 +1932,23 @@ h3.my-profession
     transition: all 0.3s ease;
 
 }
-.ongoing .ongoing-item .ongoing-item-inner .icon .fa
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.ongoing .ongoing-item .ongoing-item-inner:hover .icon
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner:hover .icon
 {
     background: var(--skin-color);
 }
-.ongoing .ongoing-item .ongoing-item-inner:hover .icon .fa
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
-.ongoing .ongoing-item .ongoing-item-inner h4
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -2219,7 +1957,7 @@ h3.my-profession
     text-transform: capitalize;
 
 }
-.ongoing .ongoing-item .ongoing-item-inner p
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
@@ -2227,48 +1965,74 @@ h3.my-profession
 
 }
 
-
-
-
-/*Creations*/
-.creation .container
+.Products-testimonial .container
 {
     padding-bottom: 40px;
 }
-.creation .creation-heading
+.Products-testimonial .Products-testimonial-item
 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-
-.creation .creation-heading h2
-{
-    color: var(--text-black-900);
-    font-weight: 500;
-}
-.creation .creation-item
-{
+    margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    margin-bottom: 30px;
 }
-.creation .creation-item-inner
+
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner
 {
-    border: 6px solid var(--bg-black-100);
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
     border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
 }
-
-.creation .creation-item-inner .creation-img img
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner:hover
 {
-    width: 100%;
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner .icon
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
     display: block;
-
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3s ease;
 
 }
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner .icon .fa
+{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner:hover .icon
+{
+    background: var(--skin-color);
+}
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner:hover .icon .fa
+{
+    font-size: 25px;
+    color: #ffffff;
+}
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner h4
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.Products-testimonial .Products-testimonial-item .Products-testimonial-item-inner p
+{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+
+}
+
 
 
 /*Partners*/
@@ -2312,17 +2076,17 @@ h3.my-profession
 }
 
 
-/* Job */
+/* Careers */
 
 
-.job
+.careers
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 
 }
-.job .job-info
+.careers .careers-info
 {
     flex: 0 0 60%;
     max-width: 60%;
@@ -2350,19 +2114,19 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.job-info p {
+.careers-info p {
     margin-bottom: 70px;
     font-size: 20px;
     color: var(--text-black-700);
 }
-.job .job-img
+.careers .careers-img
 {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
-.job-img::after
+.careers-img::after
 {
     content: '';
     position: absolute;
@@ -2375,7 +2139,7 @@ h3.my-profession
     right: 30px;
     bottom: -20px;
 }
-.job-img::before
+.careers-img::before
 {
     content: '';
     position: absolute;
@@ -2388,7 +2152,7 @@ h3.my-profession
     left: 30px;
     top: -40px;
 }
-.job .job-img img 
+.careers .careers-img img 
 {
     margin: auto;
     border-radius: 5px;
@@ -2549,31 +2313,21 @@ h3.my-profession
 @media (max-width:991px) {
 
  
-    /* cbc */
-    /* .cbc-training .cbc-training-info-item, */
-    .cbc-training .cbc-training-item,
-    .cbc-testimonial .cbc-testimonial-item,
+    /* Consultancy */
+    .consultancy-testimonial .consultancy-testimonial-item,
 
-    /* Grads */
-    /* .grads-training .grads-training-info-item, */
-    .grads-training .grads-training-item,
-    .grads-testimonial .grads-testimonial-item,
+    /* Awareness */
+    .awareness-testimonial .awareness-testimonial-item,
 
-    /* Corporate */
-    .corporate-solutions .corporate-solutions-item,
-    /* .corporate-training .corporate-training-info-item, */
-    .corporate-training .corporate-training-item,
-    .corporate-testimonial .corporate-testimonial-item,
+    /* Compliance */
+    .compliance-testimonial .compliance-testimonial-item,
 
     /* Business */
 
     .contact .contact-info-item,
-    .service .service-item,
-    .product .product-item,
-    .proof-of-work .proof-of-work-item,
-    .testimonial .testimonial-item,
-    .ongoing .ongoing-item,
-    .creation .creation-item,
+    .ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item,
+    .ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item,
+    .Products-testimonial .Products-testimonial-item,
     .partner .partner-item
     
 
@@ -2596,87 +2350,77 @@ h3.my-profession
     }
 
 
-    /* cbc-> borrowed from home */
-    .cbc-financial .cbc-financial-info                
+    /* consultancy-> borrowed from home */
+    .ConsultancyManufacturingandSupplyChain .ConsultancyManufacturingandSupplyChain-info                
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .cbc-financial .cbc-financial-img
+    .ConsultancyManufacturingandSupplyChain .ConsultancyManufacturingandSupplyChain-img
     {
         display: none;
     }
 
-    .cbc-community .cbc-community-info                
+    .ConsultancyFinancialSectorSaccosandMicrofinance .ConsultancyFinancialSectorSaccosandMicrofinance-info                
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .cbc-community .cbc-community-img
+    .ConsultancyFinancialSectorSaccosandMicrofinance .ConsultancyFinancialSectorSaccosandMicrofinance-img
     {
         display: none;
     }
 
     /* Grads-> borrowed from home */
-    .grads-financial .grads-financial-info                
+    .AwarenessManufacturingandSupplyChain .AwarenessManufacturingandSupplyChain-info                
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .grads-financial .grads-financial-img
+    .AwarenessManufacturingandSupplyChain .AwarenessManufacturingandSupplyChain-img
     {
         display: none;
     }
 
-    .grads-community .grads-community-info                
+    .AwarenessFinancialSectorSaccosandMicrofinance .AwarenessFinancialSectorSaccosandMicrofinance-info                
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .grads-community .grads-community-img
+    .AwarenessFinancialSectorSaccosandMicrofinance .AwarenessFinancialSectorSaccosandMicrofinance-img
     {
         display: none;
     }
 
-    /* Corporate-> borrowed from home */
-    .corporate-hire .corporate-hire-info                
+    /* ComplianceManufacturingandSupplyChain-> borrowed from home */
+    .ComplianceManufacturingandSupplyChain .ComplianceManufacturingandSupplyChain-info                
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .corporate-hire .corporate-hire-img
+    .ComplianceManufacturingandSupplyChain .ComplianceManufacturingandSupplyChain-img
     {
         display: none;
     }
-    .corporate-community .corporate-community-info                
+    .ComplianceFinancialSectorSaccosandMicrofinance .ComplianceFinancialSectorSaccosandMicrofinance-info                
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .corporate-community .corporate-community-img
-    {
-        display: none;
-    }
-
-    /* consultancy */
-    .consultancy .consultancy-info                
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .consultancy .consultancy-img
+    .ComplianceFinancialSectorSaccosandMicrofinance .ComplianceFinancialSectorSaccosandMicrofinance-img
     {
         display: none;
     }
 
 
-    /* job */
-    .job .job-info                
+
+    /* Careers */
+    .careers .careers-info                
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .job .job-img
+    .careers .careers-img
     {
         display: none;
     }
@@ -2702,23 +2446,19 @@ h3.my-profession
     
     
 
-    /* cbc */
+    /* Consultancy */
 
-    .cbc-training .cbc-training-item,
-    .cbc-testimonial .cbc-testimonial-item,
+    .consultancy-testimonial .consultancy-testimonial-item,
     
 
-    /* Grads */
+    /* Awareness */
     
 
-    .grads-training .grads-training-item,
-    .grads-testimonial .grads-testimonial-item,
+    .awareness-testimonial .awareness-testimonial-item,
     
 
-    /* Corporate */
-    .corporate-solutions .corporate-solutions-item,
-    .corporate-training .corporate-training-item,
-    .corporate-testimonial .corporate-testimonial-item,
+    /* Compliance */
+    .compliance-testimonial .compliance-testimonial-item,
     
 
     /* Business */
@@ -2729,12 +2469,9 @@ h3.my-profession
     .about .about-content .personal-info,
     .contact .contact-form .col-6,
     .contact .contact-info-item,
-    .service .service-item,
-    .product .product-item,
-    .proof-of-work .proof-of-work-item,
-    .testimonial .testimonial-item,
-    .ongoing .ongoing-item,
-    .creation .creation-item,
+    .ProductsManufacturingandSupplyChain .ProductsManufacturingandSupplyChain-item,
+    .ProductsFinancialSectorSaccosandMicrofinance .ProductsFinancialSectorSaccosandMicrofinance-item,
+    .Products-testimonial .Products-testimonial-item,
     .partner .partner-item
 
 
